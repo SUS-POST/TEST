@@ -4,11 +4,6 @@ workflows:
     environment:
       xcode: latest
       cocoapods: default
-      app_store_connect_apple_id: $APP_STORE_CONNECT_APPLE_ID
-      app_store_connect_team_id: $APP_STORE_CONNECT_TEAM_ID
-      app_store_connect_key_id: $APP_STORE_CONNECT_KEY_ID
-      app_store_connect_issuer_id: $APP_STORE_CONNECT_ISSUER_ID
-      app_store_connect_private_key: $APP_STORE_CONNECT_PRIVATE_KEY
     triggering:
       events:
         - push
